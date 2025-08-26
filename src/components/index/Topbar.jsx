@@ -9,7 +9,9 @@ function Topbar() {
             <ul className="top-info text-center text-md-left">
               <li>
                 <i className="fas fa-map-marker-alt" />{" "}
-                <p className="info-text">9051 Constra Incorporate, USA</p>
+                <p className="info-text">
+                  1900 Camden Avenue, Suite 101, San Jose, CA 95124
+                </p>
               </li>
             </ul>
           </div>
@@ -17,27 +19,27 @@ function Topbar() {
           <div className="col-lg-4 col-md-4 top-social text-center text-md-right">
             <ul className="list-unstyled">
               <li>
-                <a title="Facebook" href="https://facebbok.com/themefisher.com">
+                <a title="Facebook" href="">
                   <span className="social-icon">
                     <i className="fab fa-facebook-f" />
                   </span>
                 </a>
-                <a title="Twitter" href="https://twitter.com/themefisher.com">
+                <a title="Twitter" href="">
                   <span className="social-icon">
                     <i className="fab fa-twitter" />
                   </span>
                 </a>
                 <a
                   title="Instagram"
-                  href="https://instagram.com/themefisher.com"
+                  href=""
                 >
                   <span className="social-icon">
                     <i className="fab fa-instagram" />
                   </span>
                 </a>
-                <a title="Linkdin" href="https://github.com/themefisher.com">
+                <a title="Linkdin" href="">
                   <span className="social-icon">
-                    <i className="fab fa-github" />
+                    <i className="fab fa-linkedin" />
                   </span>
                 </a>
               </li>

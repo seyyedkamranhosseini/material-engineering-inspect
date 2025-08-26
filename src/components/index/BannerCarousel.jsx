@@ -12,13 +12,13 @@ function BannerCarousel() {
             <div className="row align-items-center h-100">
               <div className="col-md-12 text-center">
                 <h2 className="slide-title" data-animation-in="slideInLeft">
-                  17 Years of excellence in
+                  Certified Special Inspections & Material Testing
                 </h2>
                 <h3
                   className="slide-sub-title"
                   data-animation-in="slideInRight"
                 >
-                  Construction Industry
+                  You Can Rely On Us
                 </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
                   <a href="services.html" className="slider btn btn-primary">
@@ -45,13 +45,13 @@ function BannerCarousel() {
             <div className="row align-items-center h-100">
               <div className="col-md-12">
                 <h2 className="slide-title-box" data-animation-in="slideInDown">
-                  World Class Service
+                  Precision in Every Inspection
                 </h2>
                 <h3 className="slide-title" data-animation-in="fadeIn">
-                  When Service Matters
+                  When Safety Matters Most
                 </h3>
                 <h3 className="slide-sub-title" data-animation-in="slideInLeft">
-                  Your Choice is Simple
+                  Your Project Deserves the Best
                 </h3>
                 <p data-animation-in="slideInRight">
                   <a
@@ -75,17 +75,16 @@ function BannerCarousel() {
             <div className="row align-items-center h-100">
               <div className="col-md-12">
                 <h2 className="slide-title" data-animation-in="slideInDown">
-                  Meet Our Engineers
+                  Building Confidence Into Every Project{" "}
                 </h2>
                 <h3 className="slide-sub-title" data-animation-in="fadeIn">
-                  We believe sustainability
+                  Because Quality Today Protects Tomorrow
                 </h3>
                 <p
                   className="slider-description lead"
                   data-animation-in="slideInRight"
                 >
-                  We will deal with your failure that determines how you achieve
-                  success.
+                  Inspections and testing designed for lasting performance.
                 </p>
                 <div data-animation-in="slideInLeft">
                   <a

@@ -6,7 +6,7 @@ function BannerArea({ title, subtitle }) {
     <div
       id="banner-area"
       className="banner-area"
-      style={{ backgroundImage: "url(images/banner/banner1.jpg)" }}
+      style={{ backgroundImage: "url(images/banner/banner3.jpg)" }}
     >
       <div className="banner-text">
         <div className="container">

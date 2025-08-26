@@ -10,7 +10,7 @@ function Header() {
             <div className="row align-items-center">
               <div className="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
                 <Link className="d-block" to="/">
-                  <img loading="lazy" src="images/logo.png" alt="Constra" />
+                  <img loading="lazy" src="images/logo.png" alt="mei" />
                 </Link>
               </div>
               {/* logo end */}
@@ -20,7 +20,7 @@ function Header() {
                     <div className="info-box">
                       <div className="info-box-content">
                         <p className="info-box-title">Call Us</p>
-                        <p className="info-box-subtitle">(+9) 847-291-4353</p>
+                        <p className="info-box-subtitle">+1 (408) 844-3775</p>
                       </div>
                     </div>
                   </li>
@@ -28,18 +28,20 @@ function Header() {
                     <div className="info-box">
                       <div className="info-box-content">
                         <p className="info-box-title">Email Us</p>
-                        <p className="info-box-subtitle">office@Constra.com</p>
+                        <p className="info-box-subtitle">
+                          info@engineeringinspect.com
+                        </p>
                       </div>
                     </div>
                   </li>
-                  <li className="last">
+                  {/* <li className="last">
                     <div className="info-box last">
                       <div className="info-box-content">
                         <p className="info-box-title">Global Certificate</p>
                         <p className="info-box-subtitle">ISO 9001:2017</p>
                       </div>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="header-get-a-quote">
                     <Link className="btn btn-primary" to="/contact">
                       Get A Quote
@@ -80,13 +82,14 @@ function Header() {
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
-                        Home <i className="fa fa-angle-down" />
+                        Home
+                        {/* <i className="fa fa-angle-down" /> */}
                       </Link>
-                      <ul className="dropdown-menu" role="menu">
+                      {/* <ul className="dropdown-menu" role="menu">
                         <li className="active">
                           <Link to="/">Home One</Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="nav-item dropdown">
                       <Link
