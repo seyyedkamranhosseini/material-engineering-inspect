@@ -8,12 +8,15 @@ function SectionFeature() {
           <div className="col-lg-6">
             <div className="ts-intro">
               <h2 className="into-title">About Us</h2>
-              <h3 className="into-sub-title">We deliver landmark projects</h3>
+              <h3 className="into-sub-title">
+                We Deliver Confidence Through Certified Inspections
+              </h3>
               <p>
-                We are rethoric question ran over her cheek When she reached the
-                first hills of the Italic Mountains, she had a last view back on
-                the skyline of her hometown Bookmarksgrove, the headline of
-                Alphabet Village and the subline of her own road, the Line Lane.
+                Material Engineering Inspection, Inc. provides trusted special
+                inspections and material testing for construction projects
+                across the Bay Area. Led by certified engineers, we help
+                developers, contractors, and owners meet safety and compliance
+                standards with precision and care.
               </p>
             </div>
             {/* Intro box end */}
@@ -26,7 +29,7 @@ function SectionFeature() {
                   </span>
                   <div className="ts-service-box-content">
                     <h3 className="service-box-title">
-                      We've Repution for Excellence
+                      Proven Commitment to Excellence
                     </h3>
                   </div>
                 </div>
@@ -36,10 +39,12 @@ function SectionFeature() {
               <div className="col-md-6">
                 <div className="ts-service-box">
                   <span className="ts-service-icon">
-                    <i className="fas fa-sliders-h" />
+                    <i className="fas fa-handshake" />
                   </span>
                   <div className="ts-service-box-content">
-                    <h3 className="service-box-title">We Build Partnerships</h3>
+                    <h3 className="service-box-title">
+                      Reliable Parternship That Last
+                    </h3>
                   </div>
                 </div>
                 {/* Service 2 end */}
@@ -51,10 +56,12 @@ function SectionFeature() {
               <div className="col-md-6">
                 <div className="ts-service-box">
                   <span className="ts-service-icon">
-                    <i className="fas fa-thumbs-up" />
+                    <i className="fas fa-compass" />
                   </span>
                   <div className="ts-service-box-content">
-                    <h3 className="service-box-title">Guided by Commitment</h3>
+                    <h3 className="service-box-title">
+                      Driven by Percision & Integrity
+                    </h3>
                   </div>
                 </div>
                 {/* Service 1 end */}
@@ -63,11 +70,11 @@ function SectionFeature() {
               <div className="col-md-6">
                 <div className="ts-service-box">
                   <span className="ts-service-icon">
-                    <i className="fas fa-users" />
+                    <i className="fas fa-hard-hat" />
                   </span>
                   <div className="ts-service-box-content">
                     <h3 className="service-box-title">
-                      A Team of Professionals
+                      Cretified Professionals, On Every Site
                     </h3>
                   </div>
                 </div>
@@ -81,9 +88,10 @@ function SectionFeature() {
           <div className="col-lg-6 mt-4 mt-lg-0">
             <h3 className="into-sub-title">Our Values</h3>
             <p>
-              Minim Austin 3 wolf moon scenester aesthetic, umami odio pariatur
-              bitters. Pop-up occaecat taxidermy street art, tattooed beard
-              literally.
+              At Material Engineering Inspection, Inc., our values guide every
+              inspection, report, and recommendation. They reflect our
+              commitment to safety, precision, and trust — and shape how we
+              serve our clients across the Bay Area.
             </p>
             <div
               className="accordion accordion-group"
@@ -100,7 +108,7 @@ function SectionFeature() {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      Safety
+                      Precision
                     </button>
                   </h2>
                 </div>
@@ -111,9 +119,8 @@ function SectionFeature() {
                   data-parent="#our-values-accordion"
                 >
                   <div className="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidata
+                    Every detail matters. We inspect with technical accuracy and
+                    care.
                   </div>
                 </div>
               </div>
@@ -128,7 +135,7 @@ function SectionFeature() {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      Customer Service
+                      Integrity
                     </button>
                   </h2>
                 </div>
@@ -139,9 +146,8 @@ function SectionFeature() {
                   data-parent="#our-values-accordion"
                 >
                   <div className="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidata
+                    We operate with honesty and transparency, always doing
+                    what’s right.
                   </div>
                 </div>
               </div>
@@ -159,7 +165,7 @@ function SectionFeature() {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      Integrity
+                      Responsiveness
                     </button>
                   </h2>
                 </div>
@@ -170,9 +176,7 @@ function SectionFeature() {
                   data-parent="#our-values-accordion"
                 >
                   <div className="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidata
+                    We deliver fast, clear communication and timely results.
                   </div>
                 </div>
               </div>

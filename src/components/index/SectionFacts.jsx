@@ -10,17 +10,17 @@ function SectionFacts() {
               <div className="ts-facts-img">
                 <img
                   loading="lazy"
-                  src="images/icon-image/fact1.png"
+                  src="images/icon-image/fact1.ico"
                   alt="facts-img"
                 />
               </div>
               <div className="ts-facts-content">
                 <h2 className="ts-facts-num">
-                  <span className="counterUp" data-count={1789}>
+                  <span className="counterUp" data-count={12}>
                     0
                   </span>
                 </h2>
-                <h3 className="ts-facts-title">Total Projects</h3>
+                <h3 className="ts-facts-title">Project Completed</h3>
               </div>
             </div>
             {/* Col end */}
@@ -28,17 +28,17 @@ function SectionFacts() {
               <div className="ts-facts-img">
                 <img
                   loading="lazy"
-                  src="images/icon-image/fact2.png"
+                  src="images/icon-image/fact2.ico"
                   alt="facts-img"
                 />
               </div>
               <div className="ts-facts-content">
                 <h2 className="ts-facts-num">
-                  <span className="counterUp" data-count={647}>
+                  <span className="counterUp" data-count={38}>
                     0
                   </span>
                 </h2>
-                <h3 className="ts-facts-title">Staff Members</h3>
+                <h3 className="ts-facts-title">Lab Tests Performed</h3>
               </div>
             </div>
             {/* Col end */}
@@ -46,17 +46,17 @@ function SectionFacts() {
               <div className="ts-facts-img">
                 <img
                   loading="lazy"
-                  src="images/icon-image/fact3.png"
+                  src="images/icon-image/fact3.ico"
                   alt="facts-img"
                 />
               </div>
               <div className="ts-facts-content">
                 <h2 className="ts-facts-num">
-                  <span className="counterUp" data-count={4000}>
+                  <span className="counterUp" data-count={24}>
                     0
                   </span>
                 </h2>
-                <h3 className="ts-facts-title">Hours of Work</h3>
+                <h3 className="ts-facts-title">Certified Reports Delivered</h3>
               </div>
             </div>
             {/* Col end */}
@@ -64,17 +64,17 @@ function SectionFacts() {
               <div className="ts-facts-img">
                 <img
                   loading="lazy"
-                  src="images/icon-image/fact4.png"
+                  src="images/icon-image/fact4.ico"
                   alt="facts-img"
                 />
               </div>
               <div className="ts-facts-content">
                 <h2 className="ts-facts-num">
-                  <span className="counterUp" data-count={44}>
+                  <span className="counterUp" data-count={15}>
                     0
                   </span>
                 </h2>
-                <h3 className="ts-facts-title">Countries Experience</h3>
+                <h3 className="ts-facts-title">Years of Combined Experience</h3>
               </div>
             </div>
             {/* Col end */}

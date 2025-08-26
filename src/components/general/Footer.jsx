@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-4 col-md-6 footer-widget footer-about">
-              <h3 className="widget-title">About Us</h3>
+              <h3 className="widget-title">About MEI</h3>
               <img
                 loading="lazy"
                 width="200px"
@@ -16,47 +17,76 @@ function Footer() {
                 alt="Constra"
               />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor inci done idunt ut labore et dolore magna aliqua.
+                Material Engineering Inspection, Inc. provides certified
+                inspections and lab testing for construction projects across the
+                Bay Area. We’re committed to precision, integrity, and
+                responsive service.
               </p>
               <div className="footer-social">
                 <ul>
                   <li>
-                    <a
-                      href="https://facebook.com/themefisher"
-                      aria-label="Facebook"
-                    >
+                    <a href="" aria-label="Facebook">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://twitter.com/themefisher"
-                      aria-label="Twitter"
-                    >
+                    <a href="" aria-label="Twitter">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://instagram.com/themefisher"
-                      aria-label="Instagram"
-                    >
+                    <a href="" aria-label="Instagram">
                       <i className="fab fa-instagram" />
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://github.com/themefisher"
-                      aria-label="Github"
-                    >
-                      <i className="fab fa-github" />
+                    <a href="" aria-label="LinkedIn">
+                      <i className="fab fa-linkedin" />
                     </a>
                   </li>
                 </ul>
               </div>
               {/* Footer social end */}
             </div>
+            {/* Col end */}
+            {/* <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+              <h3 className="widget-title">Contact Us</h3>
+              <div className="contact-us">
+                Email:{" "}
+                <span className="text-right">info@engineeringinspect.com </span>
+                <span className="text-right">
+                  schedule@engineeringinspect.com{" "}
+                </span>
+                <br />
+                Phone: <span className="text-right">+1 (408) 844-3775</span>
+                <br /> Location:{" "}
+                <span className="text-right">
+                  1900 Camden Avenue, Suite 101, San Jose, CA 95124
+                </span>
+              </div>
+            </div> */}
+            <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+              <h3 className="widget-title">Contact Us</h3>
+              <div className="contact-us">
+                <div className="d-flex">
+                  <span className="fw-bold me-2">Email:</span>
+                  <div>
+                    <div>info@engineeringinspect.com</div>
+                    <div>schedule@engineeringinspect.com</div>
+                  </div>
+                </div>
+
+                <div className="d-flex mt-2">
+                  <span className="fw-bold me-2">Phone:</span>
+                  <span>+1 (408) 844-3775</span>
+                </div>
+                <div className="d-flex mt-2">
+                  <span className="fw-bold me-2">Location:</span>
+                  <span>1900 Camden Avenue, Suite 101, San Jose, CA 95124</span>
+                </div>
+              </div>
+            </div>
+
             {/* Col end */}
             <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
               <h3 className="widget-title">Working Hours</h3>
@@ -74,7 +104,7 @@ function Footer() {
               </div>
             </div>
             {/* Col end */}
-            <div className="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+            {/* <div className="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
               <h3 className="widget-title">Services</h3>
               <ul className="list-arrow">
                 <li>
@@ -93,7 +123,7 @@ function Footer() {
                   <a href="service-single.html">Self-Perform Construction</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             {/* Col end */}
           </div>
           {/* Row end */}
@@ -107,8 +137,8 @@ function Footer() {
             <div className="col-md-6">
               <div className="copyright-info">
                 <span>
-                  Copyright © , Designed &amp; Developed by{" "}
-                  <a href="https://themefisher.com">Themefisher</a>
+                  Copyright © , by{" "}
+                  <Link to="/Home">Material Engineering Inspect, Inc.</Link>
                 </span>
               </div>
             </div>

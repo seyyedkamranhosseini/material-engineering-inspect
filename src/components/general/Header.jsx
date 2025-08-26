@@ -31,6 +31,9 @@ function Header() {
                         <p className="info-box-subtitle">
                           info@engineeringinspect.com
                         </p>
+                        <p className="info-box-subtitle">
+                          schedule@engineeringinspect.com
+                        </p>
                       </div>
                     </div>
                   </li>
@@ -97,9 +100,9 @@ function Header() {
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
-                        Company <i className="fa fa-angle-down" />
+                        About Us <i className="fa fa-angle-down" />
                       </Link>
-                      <ul className="dropdown-menu" role="menu">
+                      {/* <ul className="dropdown-menu" role="menu">
                         <li>
                           <Link to="/about">About Us</Link>
                         </li>
@@ -115,24 +118,7 @@ function Header() {
                         <li>
                           <a href="pricing.html">Pricing</a>
                         </li>
-                      </ul>
-                    </li>
-                    <li className="nav-item dropdown">
-                      <Link
-                        to="/projects"
-                        className="nav-link dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
-                        Projects <i className="fa fa-angle-down" />
-                      </Link>
-                      <ul className="dropdown-menu" role="menu">
-                        <li>
-                          <Link to="/projects">Projects All</Link>
-                        </li>
-                        <li>
-                          <a href="projects-single.html">Projects Single</a>
-                        </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="nav-item dropdown">
                       <Link
@@ -142,49 +128,31 @@ function Header() {
                       >
                         Services <i className="fa fa-angle-down" />
                       </Link>
-                      <ul className="dropdown-menu" role="menu">
+                      {/* <ul className="dropdown-menu" role="menu">
                         <li>
                           <Link to="/services">Services All</Link>
                         </li>
                         <li>
                           <a href="service-single.html">Services Single</a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="nav-item dropdown">
-                      <a
-                        href="#"
+                      <Link
+                        to="/projects"
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
-                        Features <i className="fa fa-angle-down" />
-                      </a>
-                      <ul className="dropdown-menu" role="menu">
+                        Projects <i className="fa fa-angle-down" />
+                      </Link>
+                      {/* <ul className="dropdown-menu" role="menu">
                         <li>
-                          <a href="typography.html">Typography</a>
+                          <Link to="/projects">Projects All</Link>
                         </li>
-                        <li>{/* <Link to="/Page404">404</Link> */}</li>
-                        <li className="dropdown-submenu">
-                          <a
-                            href="#!"
-                            className="dropdown-toggle"
-                            data-toggle="dropdown"
-                          >
-                            Parent Menu
-                          </a>
-                          <ul className="dropdown-menu">
-                            <li>
-                              <a href="#!">Child Menu 1</a>
-                            </li>
-                            <li>
-                              <a href="#!">Child Menu 2</a>
-                            </li>
-                            <li>
-                              <a href="#!">Child Menu 3</a>
-                            </li>
-                          </ul>
+                        <li>
+                          <a href="projects-single.html">Projects Single</a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="nav-item dropdown">
                       <a
@@ -194,7 +162,7 @@ function Header() {
                       >
                         News <i className="fa fa-angle-down" />
                       </a>
-                      <ul className="dropdown-menu" role="menu">
+                      {/* <ul className="dropdown-menu" role="menu">
                         <li>
                           <a href="news-left-sidebar.html">News Left Sidebar</a>
                         </li>
@@ -206,7 +174,7 @@ function Header() {
                         <li>
                           <a href="news-single.html">News Single</a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/contact">
