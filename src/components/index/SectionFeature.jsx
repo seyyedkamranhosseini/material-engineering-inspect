@@ -42,9 +42,7 @@ function SectionFeature() {
                     <i className="fas fa-handshake" />
                   </span>
                   <div className="ts-service-box-content">
-                    <h3 className="service-box-title">
-                      Reliable Parternship That Last
-                    </h3>
+                    <h3 className="service-box-title">Lasting Partnership</h3>
                   </div>
                 </div>
                 {/* Service 2 end */}
@@ -74,7 +72,7 @@ function SectionFeature() {
                   </span>
                   <div className="ts-service-box-content">
                     <h3 className="service-box-title">
-                      Cretified Professionals, On Every Site
+                      Certified Pros On Site
                     </h3>
                   </div>
                 </div>

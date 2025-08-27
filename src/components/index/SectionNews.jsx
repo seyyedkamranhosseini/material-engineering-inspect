@@ -6,8 +6,8 @@ function SectionNews() {
       <div className="container">
         <div className="row text-center">
           <div className="col-12">
-            <h2 className="section-title">Work of Excellence</h2>
-            <h3 className="section-sub-title">Recent Projects</h3>
+            {/* <h2 className="section-title">Work of Excellence</h2> */}
+            <h3 className="section-sub-title">Recent News</h3>
           </div>
         </div>
         {/*/ Title row end */}

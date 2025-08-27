@@ -100,7 +100,8 @@ function Header() {
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
-                        About Us <i className="fa fa-angle-down" />
+                        About Us
+                        {/* <i className="fa fa-angle-down" /> */}
                       </Link>
                       {/* <ul className="dropdown-menu" role="menu">
                         <li>
@@ -128,14 +129,14 @@ function Header() {
                       >
                         Services <i className="fa fa-angle-down" />
                       </Link>
-                      {/* <ul className="dropdown-menu" role="menu">
+                      <ul className="dropdown-menu" role="menu">
                         <li>
-                          <Link to="/services">Services All</Link>
+                          <Link to="/services">‌Special Inspections</Link>
                         </li>
                         <li>
-                          <a href="service-single.html">Services Single</a>
+                          <Link to="/services">Laboratory Testing</Link>
                         </li>
-                      </ul> */}
+                      </ul>
                     </li>
                     <li className="nav-item dropdown">
                       <Link
@@ -143,7 +144,8 @@ function Header() {
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
-                        Projects <i className="fa fa-angle-down" />
+                        Projects
+                        {/* <i className="fa fa-angle-down" /> */}
                       </Link>
                       {/* <ul className="dropdown-menu" role="menu">
                         <li>
@@ -160,7 +162,8 @@ function Header() {
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
-                        News <i className="fa fa-angle-down" />
+                        News
+                        {/* <i className="fa fa-angle-down" /> */}
                       </a>
                       {/* <ul className="dropdown-menu" role="menu">
                         <li>

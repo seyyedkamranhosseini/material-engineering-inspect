@@ -49,7 +49,7 @@ function Footer() {
               {/* Footer social end */}
             </div>
             {/* Col end */}
-            {/* <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
               <h3 className="widget-title">Contact Us</h3>
               <div className="contact-us">
                 Email:{" "}
@@ -64,8 +64,8 @@ function Footer() {
                   1900 Camden Avenue, Suite 101, San Jose, CA 95124
                 </span>
               </div>
-            </div> */}
-            <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            </div>
+            {/* <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
               <h3 className="widget-title">Contact Us</h3>
               <div className="contact-us">
                 <div className="d-flex">
@@ -85,7 +85,7 @@ function Footer() {
                   <span>1900 Camden Avenue, Suite 101, San Jose, CA 95124</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Col end */}
             <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
@@ -138,7 +138,7 @@ function Footer() {
             <div className="col-md-6">
               <div className="copyright-info">
                 <span>
-                  Copyright © , by{" "}
+                  Copyright © by{" "}
                   <Link to="/Home">Material Engineering Inspect, Inc.</Link>
                 </span>
               </div>
@@ -147,19 +147,19 @@ function Footer() {
               <div className="footer-menu text-center text-md-right">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="about.html">About</a>
+                    <a href="about.html">About Us</a>
                   </li>
                   <li>
-                    <a href="team.html">Our people</a>
+                    <a href="team.html">Services</a>
                   </li>
                   <li>
                     <a href="faq.html">Faq</a>
                   </li>
                   <li>
-                    <a href="news-left-sidebar.html">Blog</a>
+                    <a href="news-left-sidebar.html">News</a>
                   </li>
                   <li>
-                    <a href="pricing.html">Pricing</a>
+                    <a href="pricing.html">Contact</a>
                   </li>
                 </ul>
               </div>

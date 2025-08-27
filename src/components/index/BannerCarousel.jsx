@@ -44,9 +44,9 @@ function BannerCarousel() {
           <div className="container h-100">
             <div className="row align-items-center h-100">
               <div className="col-md-12">
-                <h2 className="slide-title-box" data-animation-in="slideInDown">
+                {/* <h2 className="slide-title-box" data-animation-in="slideInDown">
                   Precision in Every Inspection
-                </h2>
+                </h2> */}
                 <h3 className="slide-title" data-animation-in="fadeIn">
                   When Safety Matters Most
                 </h3>
@@ -74,11 +74,12 @@ function BannerCarousel() {
           <div className="container h-100">
             <div className="row align-items-center h-100">
               <div className="col-md-12">
-                <h2 className="slide-title" data-animation-in="slideInDown">
+                {/* <h2 className="slide-title" data-animation-in="slideInDown">
                   Building Confidence Into Every Project{" "}
-                </h2>
+                </h2> */}
                 <h3 className="slide-sub-title" data-animation-in="fadeIn">
-                  Because Quality Today Protects Tomorrow
+                  {/* Because Quality Today Protects Tomorrow */}
+                  Building Confidence, Protecting Tomorrow
                 </h3>
                 <p
                   className="slider-description lead"

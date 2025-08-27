@@ -11,10 +11,9 @@ function SectionContent() {
               <div className="item">
                 <div className="quote-item">
                   <span className="quote-text">
-                    Question ran over her cheek When she reached the first hills
-                    of the Italic Mountains, she had a last view back on the
-                    skyline of her hometown Bookmarksgrove, the headline of
-                    Alphabet Village and the subline of her own road.
+                    With a commitment to precision and integrity, we deliver
+                    dependable results—ensuring every project meets the highest
+                    standards of safety and compliance.
                   </span>
                   <div className="quote-item-footer">
                     <img
@@ -24,15 +23,15 @@ function SectionContent() {
                       alt="testimonial"
                     />
                     <div className="quote-item-info">
-                      <h3 className="quote-author">Gabriel Denis</h3>
-                      <span className="quote-subtext">Chairman, OKT</span>
+                      <h3 className="quote-author">John Smith</h3>
+                      <span className="quote-subtext">Project Manager</span>
                     </div>
                   </div>
                 </div>
                 {/* Quote item end */}
               </div>
               {/*/ Item 1 end */}
-              <div className="item">
+              {/* <div className="item">
                 <div className="quote-item">
                   <span className="quote-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -53,10 +52,9 @@ function SectionContent() {
                     </div>
                   </div>
                 </div>
-                {/* Quote item end */}
-              </div>
-              {/*/ Item 2 end */}
-              <div className="item">
+                
+              </div> */}
+              {/* <div className="item">
                 <div className="quote-item">
                   <span className="quote-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -77,8 +75,7 @@ function SectionContent() {
                     </div>
                   </div>
                 </div>
-                {/* Quote item end */}
-              </div>
+              </div> */}
               {/*/ Item 3 end */}
             </div>
             {/*/ Testimonial carousel end*/}
