@@ -96,11 +96,12 @@ function Footer() {
                 Contact form.
                 <br />
                 <br /> Monday - Friday:{" "}
-                <span className="text-right">10:00 - 16:00 </span>
+                <span className="text-right">06:00 AM - 06:00 PM</span>
                 <br /> Saturday:{" "}
-                <span className="text-right">12:00 - 15:00</span>
-                <br /> Sunday and holidays:{" "}
-                <span className="text-right">09:00 - 12:00</span>
+                <span className="text-right">08:00 AM - 05:00 PM</span>
+                <br /> Sunday: <span className="text-right">Closed</span>
+                <br /> Labor Day:{" "}
+                <span className="text-right">Hours Might Differ</span>
               </div>
             </div>
             {/* Col end */}

@@ -12,7 +12,7 @@ function SectionService() {
         </div>
         {/*/ Title row end */}
         <div className="row">
-          <div className="col-lg-3 mt-5 mt-lg-0 mb-4 mb-lg-0">
+          <div className="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
             <div className="ts-service-box d-flex">
               <div className="ts-service-box-img">
                 <img
@@ -83,7 +83,7 @@ function SectionService() {
             />
           </div>
           {/* Col end */}
-          <div className="col-lg-3 mt-5 mt-lg-0 mb-4 mb-lg-0">
+          <div className="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
             <div className="ts-service-box d-flex">
               <div className="ts-service-box-img">
                 <img
