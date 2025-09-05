@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function BannerArea({ title, subtitle }) {
+function BannerArea({ title, subtitle, Intro }) {
   return (
     <div
       id="banner-area"
@@ -14,7 +14,7 @@ function BannerArea({ title, subtitle }) {
             <div className="col-lg-12">
               <div className="banner-heading">
                 <h1 className="banner-title">{title}</h1>
-                {subtitle && <p className="banner-subtitle">{subtitle}</p>}
+                {subtitle && <p className="banner-subtitle">{Intro}</p>}
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center">
                     <li className="breadcrumb-item">
@@ -22,6 +22,9 @@ function BannerArea({ title, subtitle }) {
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       {title}
+                    </li>
+                    <li className="breadcrumb-item active" aria-current="page">
+                      {subtitle}
                     </li>
                   </ol>
                 </nav>

@@ -10,7 +10,12 @@ function Header() {
             <div className="row align-items-center">
               <div className="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
                 <Link className="d-block" to="/">
-                  <img loading="lazy" src="images/logo.png" alt="mei" />
+                  <img
+                    style={{ width: "200px", height: "auto" }}
+                    loading="lazy"
+                    src="images/logo.png"
+                    alt="mei"
+                  />
                 </Link>
               </div>
               {/* logo end */}
@@ -31,9 +36,9 @@ function Header() {
                         <p className="info-box-subtitle">
                           info@engineeringinspect.com
                         </p>
-                        <p className="info-box-subtitle">
+                        {/* <p className="info-box-subtitle">
                           schedule@engineeringinspect.com
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </li>
@@ -46,8 +51,8 @@ function Header() {
                     </div>
                   </li> */}
                   <li className="header-get-a-quote">
-                    <Link className="btn btn-primary" to="/contact">
-                      Get A Quote
+                    <Link className="btn btn-primary" to="#">
+                      Schedule an Inspection
                     </Link>
                   </li>
                 </ul>
@@ -123,7 +128,7 @@ function Header() {
                     </li>
                     <li className="nav-item dropdown">
                       <Link
-                        to="/services"
+                        to="#"
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
@@ -131,10 +136,14 @@ function Header() {
                       </Link>
                       <ul className="dropdown-menu" role="menu">
                         <li>
-                          <Link to="/services">‌Special Inspections</Link>
+                          <Link to="/specialinspections">
+                            ‌Special Inspections
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/services">Laboratory Testing</Link>
+                          <Link to="/laboratorytesting">
+                            Laboratory Testing
+                          </Link>
                         </li>
                       </ul>
                     </li>

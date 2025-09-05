@@ -4,7 +4,7 @@ import BannerArea from "../components/general/BannerArea";
 function Services() {
   return (
     <>
-      <BannerArea title="Our Services" subtitle="Comprehensive engineering inspection services" />
+      <BannerArea title="Services" subtitle="Special Inspections" Intro="Comprehensive Material Engineering Inspection Services" />
       <section className="content">
         <div className="container">
           <div className="row">

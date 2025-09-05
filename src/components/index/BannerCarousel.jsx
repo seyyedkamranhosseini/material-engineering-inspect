@@ -18,7 +18,7 @@ function BannerCarousel() {
                   className="slide-sub-title"
                   data-animation-in="slideInRight"
                 >
-                  You Can Rely On Us
+                  You Can Rely on Us for Every Inspection
                 </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
                   <a href="services.html" className="slider btn btn-primary">
@@ -51,7 +51,7 @@ function BannerCarousel() {
                   When Safety Matters Most
                 </h3>
                 <h3 className="slide-sub-title" data-animation-in="slideInLeft">
-                  Your Project Deserves the Best
+                  Your Project Deserves the Best Inspection
                 </h3>
                 <p data-animation-in="slideInRight">
                   <a

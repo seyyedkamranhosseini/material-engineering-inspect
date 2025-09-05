@@ -9,7 +9,8 @@ function SectionAction() {
             <div className="col-md-8 text-center text-md-left">
               <div className="call-to-action-text">
                 <h3 className="action-title">
-                  Ensuring Safety, Quality & Compliance in Every Build
+                  {/* Ensuring Safety, Quality & Compliance in Every Build */}
+                  Engineering Safety and Quality with Every Inspection
                 </h3>
               </div>
             </div>

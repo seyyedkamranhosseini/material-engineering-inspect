@@ -14,13 +14,14 @@ function Footer() {
                 width="200px"
                 className="footer-logo"
                 src="images/footer-logo.png"
-                alt="Constra"
+                alt="EMI"
               />
               <p>
-                Material Engineering Inspection, Inc. provides certified
-                inspections and lab testing for construction projects across the
-                Bay Area. We’re committed to precision, integrity, and
-                responsive service.
+                Material Engineering Inspection, Inc. (MEI) is a trusted Special
+                Inspection agency providing quality assurance, quality control,
+                and testing. We deliver accurate, code-compliant inspections to
+                support owners, engineers, contractors, and agencies in
+                constructing safe and reliable structures.
               </p>
               <div className="footer-social">
                 <ul>
@@ -52,7 +53,10 @@ function Footer() {
             <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
               <h3 className="widget-title">Contact Us</h3>
               <div className="contact-us">
-                Email:{" "}
+                <span className="text-right">
+                  Email:
+                  <br />{" "}
+                </span>
                 <span className="text-right">info@engineeringinspect.com </span>
                 <span className="text-right">
                   schedule@engineeringinspect.com{" "}
@@ -91,15 +95,14 @@ function Footer() {
             <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
               <h3 className="widget-title">Working Hours</h3>
               <div className="working-hours">
-                We work 7 days a week, every day excluding major holidays.
+                We work 5 days a week, every day excluding major holidays.
                 Contact us if you have an emergency, with our Hotline and
                 Contact form.
                 <br />
                 <br /> Monday - Friday:{" "}
-                <span className="text-right">06:00 AM - 06:00 PM</span>
-                <br /> Saturday:{" "}
                 <span className="text-right">08:00 AM - 05:00 PM</span>
-                <br /> Sunday: <span className="text-right">Closed</span>
+                <br /> Saturday - Sunday:{" "}
+                <span className="text-right">Closed</span>
                 <br /> Labor Day:{" "}
                 <span className="text-right">Hours Might Differ</span>
               </div>

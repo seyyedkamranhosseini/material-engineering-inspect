@@ -4,7 +4,7 @@ import BannerArea from "../components/general/BannerArea";
 function Projects() {
   return (
     <>
-      <BannerArea title="Our Projects" subtitle="Showcasing our work of excellence" />
+      <BannerArea title="Company" subtitle="Our Projects" />
       <section className="content">
         <div className="container">
           <div className="row">
@@ -57,4 +57,3 @@ function Projects() {
 }
 
 export default Projects;
-

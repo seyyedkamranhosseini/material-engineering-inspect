@@ -8,6 +8,8 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import SpecialInspections from "./components/Services/SpecialInspections";
+import LaboratoryTesting from "./components/Services/LaboratoryTesting";
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/specialInspections" element={<SpecialInspections />} />
+        <Route path="/laboratorytesting" element={<LaboratoryTesting />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
@@ -27,4 +30,3 @@ function App() {
 }
 
 export default App;
-
