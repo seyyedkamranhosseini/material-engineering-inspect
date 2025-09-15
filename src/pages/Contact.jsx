@@ -4,7 +4,11 @@ import BannerArea from "../components/general/BannerArea";
 function Contact() {
   return (
     <>
-      <BannerArea title="Company" subtitle="Contact Us" />
+      <BannerArea
+        title="Company"
+        subtitle="Contact Us"
+        Intro="Ways that you can reach us!"
+      />
       <section id="main-container" className="main-container">
         <div className="container">
           <div className="row">

@@ -135,30 +135,13 @@ function Header() {
                         </li>
                       </ul>
                     </li>
-                    <li className="nav-item dropdown">
-                      <Link
-                        to="/projects"
-                        className="nav-link dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
+                    <li className="nav-item">
+                      <Link to="/projects" className="nav-link">
                         Projects
-                        {/* <i className="fa fa-angle-down" /> */}
                       </Link>
-                      {/* <ul className="dropdown-menu" role="menu">
-                        <li>
-                          <Link to="/projects">Projects All</Link>
-                        </li>
-                        <li>
-                          <a href="projects-single.html">Projects Single</a>
-                        </li>
-                      </ul> */}
                     </li>
-                    <li className="nav-item dropdown">
-                      <a
-                        href="#"
-                        className="nav-link dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
+                    <li className="nav-item">
+                      <a href="/news" className="nav-link">
                         News
                         {/* <i className="fa fa-angle-down" /> */}
                       </a>

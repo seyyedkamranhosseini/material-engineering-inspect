@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import SpecialInspections from "./components/Services/SpecialInspections";
 import LaboratoryTesting from "./components/Services/LaboratoryTesting";
 import About from "./pages/About";
+import News from "./pages/News";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/specialInspections" element={<SpecialInspections />} />
         <Route path="/LaboratoryTesting" element={<LaboratoryTesting />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/news" element={<News />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
