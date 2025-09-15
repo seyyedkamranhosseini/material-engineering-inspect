@@ -84,47 +84,35 @@ function Header() {
                 </button>
                 <div id="navbar-collapse" className="collapse navbar-collapse">
                   <ul className="nav navbar-nav mr-auto">
-                    <li className="nav-item dropdown active">
+                    {/* <li className="nav-item dropdown active">
                       <Link
                         to="/"
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
                         Home
-                        {/* <i className="fa fa-angle-down" /> */}
                       </Link>
-                      {/* <ul className="dropdown-menu" role="menu">
-                        <li className="active">
-                          <Link to="/">Home One</Link>
-                        </li>
-                      </ul> */}
+                    </li> */}
+                    <li className="nav-item active">
+                      <Link to="/" className="nav-link">
+                        Home
+                      </Link>
                     </li>
-                    <li className="nav-item dropdown">
+                    {/* <li className="nav-item dropdown">
                       <Link
                         to="/about"
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                       >
                         About Us
-                        {/* <i className="fa fa-angle-down" /> */}
+                        
                       </Link>
-                      {/* <ul className="dropdown-menu" role="menu">
-                        <li>
-                          <Link to="/about">About Us</Link>
-                        </li>
-                        <li>
-                          <a href="team.html">Our People</a>
-                        </li>
-                        <li>
-                          <a href="testimonials.html">Testimonials</a>
-                        </li>
-                        <li>
-                          <a href="faq.html">Faq</a>
-                        </li>
-                        <li>
-                          <a href="pricing.html">Pricing</a>
-                        </li>
-                      </ul> */}
+                      
+                    </li> */}
+                    <li className="nav-item">
+                      <Link to="/about" className="nav-link">
+                        About Us
+                      </Link>
                     </li>
                     <li className="nav-item dropdown">
                       <Link

@@ -110,25 +110,18 @@ function Contact() {
           </div>
           {/* 1st row end */}
           <div className="gap-60" />
-          {/* <div className="google-map">
-            <div
-              id="map"
-              className="map"
-              data-latitude="40.712776"
-              data-longitude="-74.005974"
-              data-marker="images/marker.png"
-              data-marker-name="MEI"
-            />
-          </div> */}
-          <div className="google-map">
-            <div
-              id="map"
-              className="map"
-              data-latitude="37.2566"
-              data-longitude="-121.9306"
-              data-marker="images/marker.png"
-              data-marker-name="MEI"
-            />
+          <div className="row" style={{ justifyContent: "center" }}>
+            <div className="google-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.4207709946645!2d-121.92614982502307!3d37.26144814156514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e3562f169ad3b%3A0xf0a83884c476091e!2sMaterial%20Engineering%20Inspection%2C%20Inc.!5e0!3m2!1sen!2s!4v1757764505818!5m2!1sen!2s"
+                width={800}
+                height={600}
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
           </div>
           {/* <div className="gap-40" /> */}
           {/* Content row */}

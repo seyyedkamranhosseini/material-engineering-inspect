@@ -1,6 +1,45 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-function BannerCarousel() {
+const BannerCarousel = () => {
+  useEffect(() => {
+    // Initialize the banner carousel when component mounts
+    const initializeSlider = () => {
+      // Destroy existing slick instance if it exists
+      if (window.$ && window.$('.banner-carousel.banner-carousel-1').hasClass('slick-initialized')) {
+        window.$('.banner-carousel.banner-carousel-1').slick('unslick');
+      }
+      
+      // Initialize the slider
+      if (window.$ && window.$('.banner-carousel.banner-carousel-1').length > 0) {
+        window.$('.banner-carousel.banner-carousel-1').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          dots: true,
+          speed: 600,
+          arrows: true,
+          prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
+          nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
+        });
+        
+        // Initialize slick animation if available
+        if (window.$('.banner-carousel.banner-carousel-1').slickAnimation) {
+          window.$('.banner-carousel.banner-carousel-1').slickAnimation();
+        }
+      }
+    };
+
+    // Small delay to ensure DOM is ready
+    const timer = setTimeout(initializeSlider, 100);
+
+    // Cleanup function to destroy slider when component unmounts
+    return () => {
+      clearTimeout(timer);
+      if (window.$ && window.$('.banner-carousel.banner-carousel-1').hasClass('slick-initialized')) {
+        window.$('.banner-carousel.banner-carousel-1').slick('unslick');
+      }
+    };
+  }, []); // Empty dependency array means this runs once when component mounts
   return (
     <div className="banner-carousel banner-carousel-1 mb-0">
       <div
@@ -36,6 +75,7 @@ function BannerCarousel() {
           </div>
         </div>
       </div>
+
       <div
         className="banner-carousel-item"
         style={{ backgroundImage: "url(images/slider-main/bg2.jpg)" }}
@@ -44,9 +84,6 @@ function BannerCarousel() {
           <div className="container h-100">
             <div className="row align-items-center h-100">
               <div className="col-md-12">
-                {/* <h2 className="slide-title-box" data-animation-in="slideInDown">
-                  Precision in Every Inspection
-                </h2> */}
                 <h3 className="slide-title" data-animation-in="fadeIn">
                   When Safety Matters Most
                 </h3>
@@ -66,6 +103,7 @@ function BannerCarousel() {
           </div>
         </div>
       </div>
+
       <div
         className="banner-carousel-item"
         style={{ backgroundImage: "url(images/slider-main/bg3.jpg)" }}
@@ -74,11 +112,7 @@ function BannerCarousel() {
           <div className="container h-100">
             <div className="row align-items-center h-100">
               <div className="col-md-12">
-                {/* <h2 className="slide-title" data-animation-in="slideInDown">
-                  Building Confidence Into Every Project{" "}
-                </h2> */}
                 <h3 className="slide-sub-title" data-animation-in="fadeIn">
-                  {/* Because Quality Today Protects Tomorrow */}
                   Building Confidence, Protecting Tomorrow
                 </h3>
                 <p
@@ -110,6 +144,6 @@ function BannerCarousel() {
       </div>
     </div>
   );
-}
+};
 
 export default BannerCarousel;
