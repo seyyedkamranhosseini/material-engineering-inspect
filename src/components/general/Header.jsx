@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScheduleInspectionButton from "./ScheduleInspectionButton";
 
 function Header() {
   return (
@@ -51,9 +52,7 @@ function Header() {
                     </div>
                   </li> */}
                   <li className="header-get-a-quote">
-                    <Link className="btn btn-primary" to="#">
-                      Schedule an Inspection
-                    </Link>
+                    <ScheduleInspectionButton className="btn btn-primary" />
                   </li>
                 </ul>
                 {/* Ul end */}
@@ -140,25 +139,11 @@ function Header() {
                         Projects
                       </Link>
                     </li>
-                    <li className="nav-item">
-                      <a href="/news" className="nav-link">
+                    {/* <li className="nav-item">
+                      <Link to="/news" className="nav-link">
                         News
-                        {/* <i className="fa fa-angle-down" /> */}
-                      </a>
-                      {/* <ul className="dropdown-menu" role="menu">
-                        <li>
-                          <a href="news-left-sidebar.html">News Left Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="news-right-sidebar.html">
-                            News Right Sidebar
-                          </a>
-                        </li>
-                        <li>
-                          <a href="news-single.html">News Single</a>
-                        </li>
-                      </ul> */}
-                    </li>
+                      </Link>
+                    </li> */}
                     <li className="nav-item">
                       <Link className="nav-link" to="/contact">
                         Contact

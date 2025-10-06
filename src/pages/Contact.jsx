@@ -1,5 +1,6 @@
 import React from "react";
 import BannerArea from "../components/general/BannerArea";
+import ContactForm from "../components/general/ContactForm";
 
 function Contact() {
   return (
@@ -17,52 +18,7 @@ function Contact() {
                 Fill out the form below, and our team will get back to you
                 shortly.
               </p>
-              <form>
-                <div className="form-group">
-                  <label htmlFor="name">
-                    Full Name <span style={{ color: "red" }}>*</span>
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="E.g. John Doe"
-                    required
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">
-                    Email Address <span style={{ color: "red" }}>*</span>
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="E.g. john.doe@example.com"
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="phone">
-                    Phone Number <span style={{ color: "red" }}>*</span>
-                  </label>
-                  <input
-                    type="tel"
-                    className="form-control"
-                    placeholder="E.g. +1 (123) 456-7890"
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message">
-                    Message <span style={{ color: "red" }}>*</span>
-                  </label>
-                  <textarea
-                    className="form-control"
-                    rows="5"
-                    placeholder="Your Message"
-                  ></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary">
-                  Send Message
-                </button>
-              </form>
+              <ContactForm />
             </div>
           </div>
           <div className="gap-60" />

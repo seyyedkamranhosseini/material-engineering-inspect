@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SectionAction() {
   return (
@@ -17,9 +18,9 @@ function SectionAction() {
             {/* Col end */}
             <div className="col-md-4 text-center text-md-right mt-3 mt-md-0">
               <div className="call-to-action-btn">
-                <a className="btn btn-dark" href="#">
+                <Link className="btn btn-dark" to="/requestquote">
                   Request Quote
-                </a>
+                </Link>
               </div>
             </div>
             {/* col end */}

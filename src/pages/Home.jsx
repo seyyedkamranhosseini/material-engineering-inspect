@@ -19,8 +19,8 @@ function Home() {
       <SectionService />
       <SectionProject />
       <SectionContent />
-      <Sectionsubscribe />
-      <SectionNews />
+      {/* <Sectionsubscribe /> */}
+      {/* <SectionNews /> */}
     </>
   );
 }

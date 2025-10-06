@@ -1,30 +1,40 @@
 import React, { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 const BannerCarousel = () => {
   useEffect(() => {
     // Initialize the banner carousel when component mounts
     const initializeSlider = () => {
       // Destroy existing slick instance if it exists
-      if (window.$ && window.$('.banner-carousel.banner-carousel-1').hasClass('slick-initialized')) {
-        window.$('.banner-carousel.banner-carousel-1').slick('unslick');
+      if (
+        window.$ &&
+        window
+          .$(".banner-carousel.banner-carousel-1")
+          .hasClass("slick-initialized")
+      ) {
+        window.$(".banner-carousel.banner-carousel-1").slick("unslick");
       }
-      
+
       // Initialize the slider
-      if (window.$ && window.$('.banner-carousel.banner-carousel-1').length > 0) {
-        window.$('.banner-carousel.banner-carousel-1').slick({
+      if (
+        window.$ &&
+        window.$(".banner-carousel.banner-carousel-1").length > 0
+      ) {
+        window.$(".banner-carousel.banner-carousel-1").slick({
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
           dots: true,
           speed: 600,
           arrows: true,
-          prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
-          nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
+          prevArrow:
+            '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
+          nextArrow:
+            '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>',
         });
-        
+
         // Initialize slick animation if available
-        if (window.$('.banner-carousel.banner-carousel-1').slickAnimation) {
-          window.$('.banner-carousel.banner-carousel-1').slickAnimation();
+        if (window.$(".banner-carousel.banner-carousel-1").slickAnimation) {
+          window.$(".banner-carousel.banner-carousel-1").slickAnimation();
         }
       }
     };
@@ -35,8 +45,13 @@ const BannerCarousel = () => {
     // Cleanup function to destroy slider when component unmounts
     return () => {
       clearTimeout(timer);
-      if (window.$ && window.$('.banner-carousel.banner-carousel-1').hasClass('slick-initialized')) {
-        window.$('.banner-carousel.banner-carousel-1').slick('unslick');
+      if (
+        window.$ &&
+        window
+          .$(".banner-carousel.banner-carousel-1")
+          .hasClass("slick-initialized")
+      ) {
+        window.$(".banner-carousel.banner-carousel-1").slick("unslick");
       }
     };
   }, []); // Empty dependency array means this runs once when component mounts
@@ -60,15 +75,15 @@ const BannerCarousel = () => {
                   You Can Rely on Us for Every Inspection
                 </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                  <a href="services.html" className="slider btn btn-primary">
-                    Our Services
-                  </a>
-                  <a
-                    href="contact.html"
-                    className="slider btn btn-primary border"
+                  <Link
+                    to="/specialinspections"
+                    className="slider btn btn-primary"
                   >
+                    Our Services
+                  </Link>
+                  <Link to="/contact" className="slider btn btn-primary border">
                     Contact Now
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -91,12 +106,12 @@ const BannerCarousel = () => {
                   Your Project Deserves the Best Inspection
                 </h3>
                 <p data-animation-in="slideInRight">
-                  <a
-                    href="services.html"
+                  <Link
+                    to="/specialinspections"
                     className="slider btn btn-primary border"
                   >
                     Our Services
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -122,20 +137,20 @@ const BannerCarousel = () => {
                   Inspections and testing designed for lasting performance.
                 </p>
                 <div data-animation-in="slideInLeft">
-                  <a
-                    href="contact.html"
+                  <Link
+                    to="/contact"
                     className="slider btn btn-primary"
                     aria-label="contact-with-us"
                   >
                     Get Free Quote
-                  </a>
-                  <a
-                    href="about.html"
+                  </Link>
+                  <Link
+                    to="/about"
                     className="slider btn btn-primary border"
                     aria-label="learn-more-about-us"
                   >
                     Learn more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

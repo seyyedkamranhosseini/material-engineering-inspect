@@ -26,23 +26,58 @@ function Footer() {
               <div className="footer-social">
                 <ul>
                   <li>
-                    <a href="" aria-label="Facebook">
-                      <i className="fab fa-facebook-f" />
+                    <a
+                      title="Facebook"
+                      href="https://www.facebook.com/inspectwithmei"
+                    >
+                      <span className="social-icon">
+                        <i className="fab fa-facebook-f" />
+                      </span>
                     </a>
                   </li>
                   <li>
-                    <a href="" aria-label="Twitter">
-                      <i className="fab fa-twitter" />
+                    <a title="X.com" href="https://x.com/inspectwithmei">
+                      <span className="social-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          style={{
+                            transition: "color 0.2s",
+                            cursor: "pointer",
+                          }}
+                          onMouseEnter={(e) =>
+                            (e.currentTarget.style.color = "white")
+                          }
+                          onMouseLeave={(e) =>
+                            (e.currentTarget.style.color = "")
+                          }
+                        >
+                          <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 310.9 119.5 464H0L185.1 253.8 0 48H170.3L283.3 209.8 389.2 48zM364.4 421.8h39.4L133.6 89.1H91.8L364.4 421.8z" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
-                    <a href="" aria-label="Instagram">
-                      <i className="fab fa-instagram" />
+                    <a
+                      title="Instagram"
+                      href="https://www.instagram.com/inspectwithmei/"
+                    >
+                      <span className="social-icon">
+                        <i className="fab fa-instagram" />
+                      </span>
                     </a>
                   </li>
                   <li>
-                    <a href="" aria-label="LinkedIn">
-                      <i className="fab fa-linkedin" />
+                    <a
+                      title="Linkdin"
+                      href="https://www.linkedin.com/in/inspectwithmei"
+                    >
+                      <span className="social-icon">
+                        <i className="fab fa-linkedin" />
+                      </span>
                     </a>
                   </li>
                 </ul>
@@ -142,27 +177,42 @@ function Footer() {
               <div className="copyright-info">
                 <span>
                   Copyright © by{" "}
-                  <Link to="/Home">Material Engineering Inspect, Inc.</Link>
+                  <Link to="/Home">Material Engineering Inspect, Inc. | </Link>
+                </span>
+                <span>
+                  <Link to="/whatsapp" style={{ textDecoration: "none" }}>
+                    Design by <span>Seyyed Kamran Hosseini</span>
+                  </Link>
                 </span>
               </div>
             </div>
             <div className="col-md-6">
               <div className="footer-menu text-center text-md-right">
                 <ul className="list-unstyled">
-                  <li>
-                    <a href="about.html">About Us</a>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/about">
+                      About
+                    </Link>
                   </li>
-                  <li>
-                    <a href="team.html">Services</a>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/specialinspections">
+                      Services
+                    </Link>
                   </li>
-                  <li>
-                    <a href="faq.html">Faq</a>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/faq">
+                      FAQ
+                    </Link>
                   </li>
-                  <li>
-                    <a href="news-left-sidebar.html">News</a>
-                  </li>
-                  <li>
-                    <a href="pricing.html">Contact</a>
+                  {/* <li className="nav-item">
+                    <Link className="nav-link" to="/news">
+                      News
+                    </Link>
+                  </li> */}
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/contact">
+                      Contact
+                    </Link>
                   </li>
                 </ul>
               </div>

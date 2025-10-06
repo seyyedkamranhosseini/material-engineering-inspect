@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function MainContent() {
   return (
@@ -17,9 +18,9 @@ function MainContent() {
               </div>
               <div className="error-body">
                 Try using the button below to go to main page of the site <br />
-                <a href="index.html" className="btn btn-primary">
+                <Link to="/" className="btn btn-primary">
                   Back to Home Page
-                </a>
+                </Link>
               </div>
             </div>
           </div>

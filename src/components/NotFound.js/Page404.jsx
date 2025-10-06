@@ -7,10 +7,12 @@ import MainContent from "./MainContent";
 function Page404() {
   return (
     <>
-      <Header />
-      <BannerArea />
+      <BannerArea
+        title="Company"
+        subtitle="Not Found"
+        Intro="The page you are looking for does not exist."
+      />
       <MainContent />
-      <Footer />
     </>
   );
 }
