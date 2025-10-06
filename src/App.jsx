@@ -4,6 +4,7 @@ import Header from "./components/general/Header";
 import Topbar from "./components/index/Topbar";
 import Footer from "./components/general/Footer";
 import Home from "./pages/Home";
+// import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import SpecialInspections from "./components/Services/SpecialInspections";
@@ -38,7 +39,9 @@ function App() {
         />
         <Route path="/requestquote" element={<RequestQuote />} />
         <Route path="/whatsapp" element={<WhatsAppRedirect />} />
-        <Route path="/notfound" element={<Page404 />} />
+
+        {/* Catch all unmatched routes - MUST BE LAST */}
+        <Route path="*" element={<Page404 />} />
       </Routes>
       <Footer />
     </Router>
